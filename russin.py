@@ -211,11 +211,11 @@ def main() -> None:
     # start_polling() is non-blocking and will stop the bot gracefully.
     updater.idle()
 
-    #setting up the webhook
-    updater.start_webhook(listen="0.0.0.0",
-                          port=int(PORT),
-                          url_path=api_key)
-    updater.bot.setWebhook(server_url_with_https,api_key)
+#     #setting up the webhook
+#     updater.start_webhook(listen="0.0.0.0",
+#                           port=int(PORT),
+#                           url_path=api_key)
+#     updater.bot.setWebhook(server_url_with_https,api_key)
 
 
 if __name__ == '__main__':
