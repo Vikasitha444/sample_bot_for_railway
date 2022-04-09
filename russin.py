@@ -41,7 +41,7 @@ import os
 
 
 
-api_key = "1909966279:AAH0h8_gqhXVe8yfJx4YUSMMH4aMEPq9NRc";
+api_key = "1993871770:AAFhe5p8GCCSa0IB5jvmWHwuMnx0vNvoww4";
 server_url_with_https = "https://pawanvikasitha.pythonanywhere.com/";
 
 
